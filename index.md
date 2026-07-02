@@ -52,6 +52,7 @@ For your first milestone, describe what your project is and how you plan to buil
 - Technical progress you've made so far
 - Challenges you're facing and solving in your future milestones
 - What your plan is to complete your project
+my project is a knee rehab device that is aimed for the time after knee surgery to help that time go smoother and help speed recovery. in my first mileston i built a mechanism that works on a timer that will go off on a set scehdule and will not turn off until the flex snesor that is wired to it is bent over the original angle. in other words the timer will keep going until the perosn bends their knee moving the flex sensor and turning off the buzzer. 
 
 # Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
