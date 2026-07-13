@@ -41,7 +41,7 @@ For your second milestone, explain what you've worked on since your previous mil
 - Previous challenges you faced that you overcame
 - What needs to be completed before your final milestone
 
-In my second mileston I mainly added a mechanism that works through a heat sensor to sense when the knee gets above normal body temperature so in practical snese the sensor will be able to detect heat from probable swelling or irritation. Once the mechanism senses heat above it set constraits (average body temperature) it will trigger an LED that will turn on until the mechanism senses that the body temperature has gone back to the normal range. I also transfered all of my wiring onto a seperate perf board from the breadboard so that it will be easier to attach and more streamlined when on the knee sleeve. Some of the challenges that I have faced is that the wiring on the baord is more sensitive than on the breadboard so some of the connections that I had on the breadboard that were previously working wouldnt work on the breadboard and I had to desolder a bunch of wiring that got messy or wasn't necessary, otherwise this mostly solved the previous problems I had with the breadboard. Before my final milestone I hope to make some of my code more complex, add vibration motors, and create a casing for the components so it isnt easily damaged when used. 
+In my second mileston I mainly added a mechanism that works through a heat sensor to sense when the knee gets above normal body temperature so in practical snese the sensor will be able to detect heat from probable swelling or irritation. Once the mechanism senses heat above it set constraits (average body temperature) it will trigger an LED that will turn on until the mechanism senses that the body temperature has gone back to the normal range. I also transfered all of my wiring onto a seperate perf board from the breadboard so that it will be easier to attach and more streamlined when on the knee sleeve. Some of the challenges that I have faced is that the wiring on the baord is more sensitive than on the breadboard so some of the connections that I had on the breadboard that were previously working wouldnt work on the breadboard and I had to desolder a bunch of wiring that got messy or wasn't necessary, otherwise this mostly solved the previous problems I had with the breadboard. Before my final milestone I hope to make some of my code more complex, add vibration motors, and create a casing for the components so it isn't easily damaged when used. 
 
 # First Milestone
 
@@ -82,8 +82,8 @@ Don't forget to place the link of where to buy each component inside the quotati
 
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| heat sensor| What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| vibration motors | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 | Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 
 # Other Resources/Examples
