@@ -4,14 +4,7 @@
 This device is built to help aid in recovery and monitor knee health after trauma like surgery or injury. This project work through three main components. The first component is the flex sensor which is strapped down across the knee cap. The flex sensor is connected to a buzzer which is set on a timer sequence meaning that every 5 seconds or so the buzzer will start snd will not turn off until the flex sensor has bent 5 times. This is good for recovery because when the knee has experienced trauma it tends to swell or bruise up and stagnation makes these conditions worse, so through this it can promote movement. Next is the heat sensor which has skin contact and is monitoring body temp so that when the body temp reaches a couple degrees above average body temp a LED will turn on signaling to the user that it is time to cool the knee down. Lastly the project includes a separate manual circuit of vibration motors. These motors are grouped in the major muscles around the knee cap and provide gentle massage which is good for circulation and drainage of swelling. 
 
 
-```HTML 
-<!--- This is an HTML comment in Markdown -->
-<!--- Anything between these symbols will not render on the published site -->
-```
-
-| **Engineer** | **School** | **Area of Interest** | **Grade** |
-|:--:|:--:|:--:|:--:|
-| Divya N | Notre Dame San Jose | bio engineering | Incoming Sophmore
+| Divya N | Notre Dame San Jose | bio engineering | Incoming Sophmore |
 <img width="501" height="667" alt="Screenshot 2026-07-29 at 11 46 27 AM" src="https://github.com/user-attachments/assets/8c03f82d-464f-411d-bbee-49c52c573bbf" />
 
   
@@ -29,14 +22,18 @@ In my second milestone I mainly added a mechanism that works through a heat sens
 
 # First Milestone
 
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/WVMoodIAWxw?si=KPYxJxQyxa5LbJWe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-My project is a knee rehab device that is aimed for the time after knee surgery to help that period go smoother and speed recovery. In my first mileston I built a mechanism that works on a timer that will go off on a set schedule, starting a buzzer that will not turn off until the flex sesor that is wired to it is bent over the original angle. In other words the timer will keep going until the person bends their knee, moving the flex sensor and turning off the buzzer. So far the main challenge I have faced is the coding and making sure that the grammer is correct and I hope to combat this challenge by just learning more about codng and familiarising myself with it. addiitonally the other problem that i have been facing is that in this milestone i have the wiring and sensors connected to a breadboard, therefore it is quite clunky and the wires are getting messed up and the wires fall out really easilly so they can get lost. i am going to combat this issue by transfering all of the wiring onto a seprate board through soldering which will be easier to attach to the finialized project. To complete my project I need to add heat sensors, vibration sensors, and an outer casing. 
+My project is a knee rehab device that is aimed for the time after knee surgery to help that period go smoother and speed recovery. In my first milestone I mostly worked not eh flex sensor components of my project. 
+
+
+
+built a mechanism that works on a timer that will go off on a set schedule, starting a buzzer that will not turn off until the flex sesor that is wired to it is bent over the original angle. In other words the timer will keep going until the person bends their knee, moving the flex sensor and turning off the buzzer.
+
+
+So far the main challenge I have faced is the coding and making sure that the grammer is correct and I hope to combat this challenge by just learning more about codng and familiarising myself with it. addiitonally the other problem that i have been facing is that in this milestone i have the wiring and sensors connected to a breadboard, therefore it is quite clunky and the wires are getting messed up and the wires fall out really easilly so they can get lost. i am going to combat this issue by transfering all of the wiring onto a seprate board through soldering which will be easier to attach to the finialized project. To complete my project I need to add heat sensors, vibration sensors, and an outer casing. 
 
 # Schematics 
-Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
-
 <img width="577" height="681" alt="Screenshot 2026-07-29 at 10 05 54 AM" src="https://github.com/user-attachments/assets/b671c95b-e2f9-47fe-896b-d0c6ac60d434" />
 This is a tinker clad diagram of my Arduino wiring for the flex sensor and the temperature sensor. The one above is the original wiring for the temperature and flex sensor and the bottom one is the revised flex sensor that is currently in my project.
 <img width="1034" height="370" alt="Screenshot 2026-07-29 at 10 04 53 AM" src="https://github.com/user-attachments/assets/597c1054-d8f0-4467-a24a-5e34abf1a7b1" />
@@ -45,7 +42,6 @@ This is the flow chart for the revised flex sensor wiring.
 This is the temperature pin wiring and the old flex sensor wiring. 
 
 # Code
-Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
 
 ```cpp
 // C++ code
@@ -158,9 +154,7 @@ void loop() {
 }
 ```
 
-# Bill of Materials
-Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
-Don't forget to place the link of where to buy each component inside the quotation marks in the corresponding row after href =. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize this to your project needs. 
+# Bill of Materials 
 
 | **Part** | **Note** | **Price ( all parts from class inventory)** | **Link** |
 |:--:|:--:|:--:|:--:|
@@ -175,8 +169,8 @@ Don't forget to place the link of where to buy each component inside the quotati
 
 # Other Resources/Examples
 One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
-- [Example 1](https://trashytuber.github.io/YimingJiaBlueStamp/)
-- [Example 2](https://sviatil0.github.io/Sviatoslav_BSE/)
-- [Example 3](https://arneshkumar.github.io/arneshbluestamp/)
+- [TinkerCAD](https://www.tinkercad.com/dashboard)
+- [Arduino Platform downloading support] (https://support.arduino.cc/hc/en-us/articles/360019833020-Download-and-install-Arduino-IDE)
+- [onshape](https://www.onshape.com/en/)
 
 To watch the BSE tutorial on how to create a portfolio, click here.
