@@ -5,7 +5,9 @@ This device is built to help aid in recovery and monitor knee health after traum
 
 
 | Divya N | Notre Dame San Jose | bio engineering | Incoming Sophmore |
-<img width="501" height="667" alt="Screenshot 2026-07-29 at 11 46 27 AM" src="https://github.com/user-attachments/assets/8c03f82d-464f-411d-bbee-49c52c573bbf" />
+
+
+<img width="501" height="667" alt="Screenshot 2026-07-29 at 11 46 27 AM"   src="https://github.com/user-attachments/assets/8c03f82d-464f-411d-bbee-49c52c573bbf" />
 
   
 # Final Milestone
