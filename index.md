@@ -1,9 +1,9 @@
-<img width="461" height="572" alt="Screenshot 2026-07-10 at 9 22 34 AM" src="https://github.com/user-attachments/assets/c1497634-7bc5-46b1-a0b2-a8e26109b5ed" />
+
 # Knee Health Device 
 
 This device is built to help aid in recovery and monitor knee health after trauma like surgery or injury. This project work through three main components. The first component is the flex sensor which is strapped down across the knee cap. The flex sensor is connected to a buzzer which is set on a timer sequence meaning that every 5 seconds or so the buzzer will start snd will not turn off until the flex sensor has bent 5 times. This is good for recovery because when the knee has experienced trauma it tends to swell or bruise up and stagnation makes these conditions worse, so through this it can promote movement. Next is the heat sensor which has skin contact and is monitoring body temp so that when the body temp reaches a couple degrees above average body temp a LED will turn on signaling to the user that it is time to cool the knee down. Lastly the project includes a separate manual circuit of vibration motors. These motors are grouped in the major muscles around the knee cap and provide gentle massage which is good for circulation and drainage of swelling. 
 
-You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
+
 ```HTML 
 <!--- This is an HTML comment in Markdown -->
 <!--- Anything between these symbols will not render on the published site -->
