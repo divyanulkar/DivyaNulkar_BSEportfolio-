@@ -26,12 +26,12 @@ In my second milestone I mainly added a mechanism that works through a heat sens
 
 My project is a knee rehab device that is aimed for the time after knee surgery to help that period go smoother and speed recovery. In my first milestone I mostly worked not eh flex sensor components of my project. 
 
+# Flex Sensor
+- I first used tinkerCAD t create a layout of how I would wire up the buzzer with the flex sensor and through TinkerCAD I was able to use a combination of Block and text code to program the flex sensor and buzzer to create a system where the buzzer will start on a timer sequence, having it turn on every 5 seconds and only turn off when the flex sensor is bent over the original angle or threshold angle. once the buzzer turns off the loop will restart
+- In use this will correspond to the user having to bend their knee to turn off the buzzer
+- A problem I had with this was that the range of data sets from the flex sensor were completely different in tinkerCAD versus the Arduino C++ so I had to debug that and create a new threshold.  
 
-
-built a mechanism that works on a timer that will go off on a set schedule, starting a buzzer that will not turn off until the flex sesor that is wired to it is bent over the original angle. In other words the timer will keep going until the person bends their knee, moving the flex sensor and turning off the buzzer.
-
-
-So far the main challenge I have faced is the coding and making sure that the grammer is correct and I hope to combat this challenge by just learning more about codng and familiarising myself with it. addiitonally the other problem that i have been facing is that in this milestone i have the wiring and sensors connected to a breadboard, therefore it is quite clunky and the wires are getting messed up and the wires fall out really easilly so they can get lost. i am going to combat this issue by transfering all of the wiring onto a seprate board through soldering which will be easier to attach to the finialized project. To complete my project I need to add heat sensors, vibration sensors, and an outer casing. 
+So far the main challenge I have faced is the coding and making sure that the grammar is correct and I hope to combat this challenge by just learning more about coding and familiarizing myself with it. additionally the other problem that i have been facing is that in this milestone i have the wiring and sensors connected to a breadboard, therefore it is quite clunky and the wires are getting messed up and the wires fall out really easily so they can get lost. I am going to combat this issue by transferring all of the wiring onto a separate board through soldering which will be easier to attach to the finalized project. To complete my project I need to add heat sensors, vibration sensors, and an outer casing. 
 
 # Schematics 
 <img width="577" height="681" alt="Screenshot 2026-07-29 at 10 05 54 AM" src="https://github.com/user-attachments/assets/b671c95b-e2f9-47fe-896b-d0c6ac60d434" />
