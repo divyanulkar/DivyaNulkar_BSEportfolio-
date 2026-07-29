@@ -40,9 +40,11 @@ My project is a knee rehab device that is aimed for the time after knee surgery 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
 
 <img width="577" height="681" alt="Screenshot 2026-07-29 at 10 05 54 AM" src="https://github.com/user-attachments/assets/b671c95b-e2f9-47fe-896b-d0c6ac60d434" />
+This is a tinker clad diagram of my Arduino wiring for the flex sensor and the temperature sensor. The one above is the original wiring for the temperature and flex sensor and the bottom one is the revised flex sensor that is currently in my project.
 <img width="1034" height="370" alt="Screenshot 2026-07-29 at 10 04 53 AM" src="https://github.com/user-attachments/assets/597c1054-d8f0-4467-a24a-5e34abf1a7b1" />
+This is the flow chart for the revised flex sensor wiring.
 <img width="948" height="354" alt="Screenshot 2026-07-29 at 10 05 38 AM" src="https://github.com/user-attachments/assets/18ac9546-f0de-408d-a1ae-0c65a2152132" />
-
+This is the temperature pin wiring and the old flex sensor wiring. 
 
 # Code
 Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
