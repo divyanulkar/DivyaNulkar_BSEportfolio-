@@ -13,9 +13,8 @@ This device is built to help aid in recovery and monitor knee health after traum
 |:--:|:--:|:--:|:--:|
 | Divya N | Notre Dame San Jose | bio engineering | Incoming Sophmore
 
-**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
-![Headstone Image](logo.svg)
+https://drive.google.com/file/d/1pPLQW4r-pNjH6W_wbcKbPJlGwLWLCaPf/view?usp=sharing_eil&ts=6a6a4a23
   
 # Final Milestone
 
