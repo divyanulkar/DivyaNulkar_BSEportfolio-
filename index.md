@@ -1,5 +1,6 @@
 # Knee Health Device 
-Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails!
+
+This device is built to help aid in recovery and monitor knee health after trauma like surgery or injury. This project work through three main components. The first component is the flex sensor which is strapped down across the knee cap. The flex sensor is connected to a buzzer which is set on a timer sequence meaning that every 5 seconds or so the buzzer will start snd will not turn off until the flex sensor has bent 5 times. This is good for recovery because when the knee has experienced trauma it tends to swell or bruise up and stagnation makes these conditions worse, so through this it can promote movement. Next is the heat sensor which has skin contact and is monitoring body temp so that when the body temp reaches a couple degrees above average body temp a LED will turn on signaling to the user that it is time to cool the knee down. Lastly the project includes a separate manual circuit of vibration motors. These motors are grouped in the major muscles around the knee cap and provide gentle massage which is good for circulation and drainage of swelling. 
 
 You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
 ```HTML 
@@ -19,7 +20,7 @@ You should comment out all portions of your portfolio that you have not complete
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kUO8kjBzOEY?si=Z-N3mdU5uKEAukQ_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-Since my previous milestone I have added multiple new things. For example I added a vibration motor system with multiple motors sewn into the inside of the knee sleeve and connected to a manual switch. I also created a casing for my perf board using CAD and sewed everything into the knee sleeve. furthermore I was also able to make the code for my flex sensor more complicated to make it so that the timer will trigger the buzzer to start and not turn off until the knee has been bent 5 times, triggering a sequence of movement. Some of my biggest triumphs at Bluestamp were earning how to code and use CAD from scratch and being able to create my very own project and being able to figure everything out mostly by myself. some of the challenges I faced were learning how to code and debug from the ground up since I had no background knowledge. I hope to learn more in depth details about the concepts and materials I learned to use. 
+Since my previous milestone I have added multiple new things. For example I added a vibration motor system with multiple motors sewn into the inside of the knee sleeve and connected to a manual switch. I also created a casing for my perf board using CAD and sewed everything into the knee sleeve. furthermore I was also able to make the code for my flex sensor more complicated to make it so that the timer will trigger the buzzer to start and not turn off until the knee has been bent 5 times, triggering a sequence of movement. Some of my biggest triumphs at Bluestamp were earning how to code and use CAD from scratch and being able to create my very own project and being able to figure everything out mostly by myself. Some of the challenges I faced were learning how to code and debug from the ground up since I had no background knowledge. I hope to learn more in depth details about the concepts and materials I learned to use. 
 
 # Second Milestone
 
@@ -40,7 +41,8 @@ Here's where you'll put images of your schematics. [Tinkercad](https://www.tinke
 # Code
 Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
 
-```// C++ code
+```cpp
+// C++ code
 
 // pin numbers
 int const BUZZER = 8;
