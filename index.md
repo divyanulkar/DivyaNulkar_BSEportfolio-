@@ -1,3 +1,4 @@
+<img width="461" height="572" alt="Screenshot 2026-07-10 at 9 22 34 AM" src="https://github.com/user-attachments/assets/c1497634-7bc5-46b1-a0b2-a8e26109b5ed" />
 # Knee Health Device 
 
 This device is built to help aid in recovery and monitor knee health after trauma like surgery or injury. This project work through three main components. The first component is the flex sensor which is strapped down across the knee cap. The flex sensor is connected to a buzzer which is set on a timer sequence meaning that every 5 seconds or so the buzzer will start snd will not turn off until the flex sensor has bent 5 times. This is good for recovery because when the knee has experienced trauma it tends to swell or bruise up and stagnation makes these conditions worse, so through this it can promote movement. Next is the heat sensor which has skin contact and is monitoring body temp so that when the body temp reaches a couple degrees above average body temp a LED will turn on signaling to the user that it is time to cool the knee down. Lastly the project includes a separate manual circuit of vibration motors. These motors are grouped in the major muscles around the knee cap and provide gentle massage which is good for circulation and drainage of swelling. 
@@ -37,6 +38,11 @@ My project is a knee rehab device that is aimed for the time after knee surgery 
 
 # Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
+
+<img width="577" height="681" alt="Screenshot 2026-07-29 at 10 05 54 AM" src="https://github.com/user-attachments/assets/b671c95b-e2f9-47fe-896b-d0c6ac60d434" />
+<img width="1034" height="370" alt="Screenshot 2026-07-29 at 10 04 53 AM" src="https://github.com/user-attachments/assets/597c1054-d8f0-4467-a24a-5e34abf1a7b1" />
+<img width="948" height="354" alt="Screenshot 2026-07-29 at 10 05 38 AM" src="https://github.com/user-attachments/assets/18ac9546-f0de-408d-a1ae-0c65a2152132" />
+
 
 # Code
 Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
