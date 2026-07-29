@@ -28,7 +28,7 @@ In my second milestone I mainly added a mechanism that works through a heat sens
 
 My project is a knee rehab device that is aimed for the time after knee surgery to help that period go smoother and speed recovery. In my first milestone I mostly worked not eh flex sensor components of my project. 
 
-## Flex Sensor
+### Flex Sensor
 - I first used tinkerCAD t create a layout of how I would wire up the buzzer with the flex sensor and through TinkerCAD I was able to use a combination of Block and text code to program the flex sensor and buzzer to create a system where the buzzer will start on a timer sequence, having it turn on every 5 seconds and only turn off when the flex sensor is bent over the original angle or threshold angle. once the buzzer turns off the loop will restart
 - In use this will correspond to the user having to bend their knee to turn off the buzzer
 - A problem I had with this was that the range of data sets from the flex sensor were completely different in tinkerCAD versus the Arduino C++ so I had to debug that and create a new threshold.  
