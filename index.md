@@ -20,7 +20,7 @@ This device is built to help aid in recovery and monitor knee health after traum
 - When I was coding this I had to create an average system where the data will be grouped by 5 data points and take the average and work off of the averages. I had to do this because with the data was recording so fast that the computer couldn't process it and it was making the program freeze and not work properly. 
 - This is good for the period of recovery after trauma because it promotes movement. When a part of our body has experienced trauma it tends to swell or stiffen up and by promoting movement this device works to help prevent these conditions from progressing. 
 
-### vibration motors 
+### Vibration Motors 
 - I added a vibration motors system that is on a completely separate manual circuit. 
 - For the vibration motors I hand sewed 17 pockets into the inside of the knee sleeve grouped around the major muscles like the quad and hamstring. 
 - These motors work to provide gentle massage which is good for recovery
@@ -31,6 +31,7 @@ This device is built to help aid in recovery and monitor knee health after traum
 - I used Onshape to create a casing for my perf board and wires and printed it using a 3d printer.
 <img width="371" height="258" alt="Screenshot 2026-07-14 at 10 36 34 AM" src="https://github.com/user-attachments/assets/89293021-ce4a-4963-b5af-6c58e7efe66e" />
 - I sewed all the components onto the knee sleeve including the perf board and the flex sensor. 
+
 Some of my biggest triumphs at Bluestamp were earning how to code and use CAD from scratch and being able to create my very own project and being able to figure everything out mostly by myself. Some of the challenges I faced were learning how to code and debug from the ground up since I had no background knowledge. I hope to learn more in depth details about the concepts and materials I learned to use. 
 
 # Second Milestone
@@ -61,10 +62,15 @@ So far the main challenge I have faced is the coding and making sure that the gr
 
 # Schematics 
 <img width="577" height="681" alt="Screenshot 2026-07-29 at 10 05 54 AM" src="https://github.com/user-attachments/assets/b671c95b-e2f9-47fe-896b-d0c6ac60d434" />
+
 This is a tinker clad diagram of my Arduino wiring for the flex sensor and the temperature sensor. The one above is the original wiring for the temperature and flex sensor and the bottom one is the revised flex sensor that is currently in my project.
+
 <img width="1034" height="370" alt="Screenshot 2026-07-29 at 10 04 53 AM" src="https://github.com/user-attachments/assets/597c1054-d8f0-4467-a24a-5e34abf1a7b1" />
+
 This is the flow chart for the revised flex sensor wiring.
+
 <img width="948" height="354" alt="Screenshot 2026-07-29 at 10 05 38 AM" src="https://github.com/user-attachments/assets/18ac9546-f0de-408d-a1ae-0c65a2152132" />
+
 This is the temperature pin wiring and the old flex sensor wiring. 
 
 # Code
