@@ -14,26 +14,50 @@ This device is built to help aid in recovery and monitor knee health after traum
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kUO8kjBzOEY?si=Z-N3mdU5uKEAukQ_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-Since my previous milestone I have added multiple new things. For example I added a vibration motor system with multiple motors sewn into the inside of the knee sleeve and connected to a manual switch. I also created a casing for my perf board using CAD and sewed everything into the knee sleeve. furthermore I was also able to make the code for my flex sensor more complicated to make it so that the timer will trigger the buzzer to start and not turn off until the knee has been bent 5 times, triggering a sequence of movement. Some of my biggest triumphs at Bluestamp were earning how to code and use CAD from scratch and being able to create my very own project and being able to figure everything out mostly by myself. Some of the challenges I faced were learning how to code and debug from the ground up since I had no background knowledge. I hope to learn more in depth details about the concepts and materials I learned to use. 
+### Flex Sensor 
+- I made the code for my flex sensor more complicated by making it so that when the buzzer starts it will no not turn off until the flex sensor is bent over its threshold angle 5 times.
+- Once the movement is made the buzzer will turn off and the loop will restart
+- When I was coding this I had to create an average system where the data will be grouped by 5 data points and take the average and work off of the averages. I had to do this because with the data was recording so fast that the computer couldn't process it and it was making the program freeze and not work properly. 
+- This is good for the period of recovery after trauma because it promotes movement. When a part of our body has experienced trauma it tends to swell or stiffen up and by promoting movement this device works to help prevent these conditions from progressing. 
+
+### vibration motors 
+- I added a vibration motors system that is on a completely separate manual circuit. 
+- For the vibration motors I hand sewed 17 pockets into the inside of the knee sleeve grouped around the major muscles like the quad and hamstring. 
+- These motors work to provide gentle massage which is good for recovery
+- These motors are wired up to a battery pack and a switch making them completely manual
+- I wired the 17 vibration motors using parallel wiring. This was tricky because the vibration motors wring are really tiny and break very easily. 
+
+### Other Changes 
+- I used Onshape to create a casing for my perf board and wires and printed it using a 3d printer.
+<img width="371" height="258" alt="Screenshot 2026-07-14 at 10 36 34 AM" src="https://github.com/user-attachments/assets/89293021-ce4a-4963-b5af-6c58e7efe66e" />
+- I sewed all the components onto the knee sleeve including the perf board and the flex sensor. 
+Some of my biggest triumphs at Bluestamp were earning how to code and use CAD from scratch and being able to create my very own project and being able to figure everything out mostly by myself. Some of the challenges I faced were learning how to code and debug from the ground up since I had no background knowledge. I hope to learn more in depth details about the concepts and materials I learned to use. 
 
 # Second Milestone
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/KhlVvR0ihYA?si=B1reRM3LcVzIZag9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-In my second milestone I mainly added a mechanism that works through a heat sensor to sense when the knee gets above normal body temperature so in practical sense the sensor will be able to detect heat from probable swelling or irritation. Once the mechanism senses heat above it set constraits (average body temperature) it will trigger an LED that will turn on until the mechanism senses that the body temperature has gone back to the normal range. I also transfered all of my wiring onto a seperate perf board from the breadboard so that it will be easier to attach and more streamlined when on the knee sleeve. Some of the challenges that I have faced is that the wiring on the baord is more sensitive than on the breadboard so some of the connections that I had on the breadboard that were previously working wouldnt work on the breadboard and I had to desolder a bunch of wiring that got messy or wasn't necessary, otherwise this mostly solved the previous problems I had with the breadboard. Before my final milestone I hope to make some of my code more complex, add vibration motors, and create a casing for the components so it isn't easily damaged when used. 
+In my second milestone I mainly added a mechanism that works through a heat sensor to sense when the knee gets above normal body temperature.
+
+### Heat Sensor
+- The heat sensor will be set with a threshold of a couple degrees above average body temperature so that when it senses the heat of the skin surrounding the knee go above this threshold it will trigger an LED to turn on which tells the user that they should start icing the knee or working to bring it back to body temp or below.
+- Once the heat sensor senses that the temperature has been brought back to normal the LED will turn off. 
+- This will work to sense irritation or swelling.
+ 
+I also transfered all of my wiring onto a seperate perf board from the breadboard so that it will be easier to attach and more streamlined when on the knee sleeve. Some of the challenges that I have faced is that the wiring on the baord is more sensitive than on the breadboard so some of the connections that I had on the breadboard that were previously working wouldnt work on the breadboard and I had to desolder a bunch of wiring that got messy or wasn't necessary, otherwise this mostly solved the previous problems I had with the breadboard. Before my final milestone I hope to make some of my code more complex, add vibration motors, and create a casing for the components so it isn't easily damaged when used. 
 
 # First Milestone
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/WVMoodIAWxw?si=KPYxJxQyxa5LbJWe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-My project is a knee rehab device that is aimed for the time after knee surgery to help that period go smoother and speed recovery. In my first milestone I mostly worked not eh flex sensor components of my project. 
+My project is a Knee Rehab Device that is aimed for the time after knee surgery to help that period go smoother and speed recovery. In my first milestone I mostly worked on the flex sensor components of my project. 
 
 ### Flex Sensor
-- I first used tinkerCAD t create a layout of how I would wire up the buzzer with the flex sensor and through TinkerCAD I was able to use a combination of Block and text code to program the flex sensor and buzzer to create a system where the buzzer will start on a timer sequence, having it turn on every 5 seconds and only turn off when the flex sensor is bent over the original angle or threshold angle. once the buzzer turns off the loop will restart
+- I first used TinkerCAD to create a layout of how I would wire up the buzzer with the flex sensor and through TinkerCAD I was able to use a combination of block and text code to program the flex sensor and buzzer to create a system where the buzzer will start on a timer sequence, having it turn on every 5 seconds and only turn off when the flex sensor is bent over the original angle or threshold angle. Once the buzzer turns off the loop will restart.
 - In use this will correspond to the user having to bend their knee to turn off the buzzer
-- A problem I had with this was that the range of data sets from the flex sensor were completely different in tinkerCAD versus the Arduino C++ so I had to debug that and create a new threshold.  
+- A problem I had with this was that the range of data sets from the flex sensor were completely different in TinkerCAD versus the Arduino C++ so I had to debug that and create a new threshold.  
 
-So far the main challenge I have faced is the coding and making sure that the grammar is correct and I hope to combat this challenge by just learning more about coding and familiarizing myself with it. additionally the other problem that i have been facing is that in this milestone i have the wiring and sensors connected to a breadboard, therefore it is quite clunky and the wires are getting messed up and the wires fall out really easily so they can get lost. I am going to combat this issue by transferring all of the wiring onto a separate board through soldering which will be easier to attach to the finalized project. To complete my project I need to add heat sensors, vibration sensors, and an outer casing. 
+So far the main challenge I have faced is the coding and making sure that the grammar is correct and I hope to combat this challenge by just learning more about coding and familiarizing myself with it. Additionally the other problem that I have been facing is that in this milestone I have the wiring and sensors connected to a breadboard, therefore it is quite clunky and the wires are getting messed up and the wires fall out really easily so they can get lost. I am going to combat this issue by transferring all of the wiring onto a separate board through soldering which will be easier to attach to the finalized project. To complete my project I need to add heat sensors, vibration sensors, and an outer casing. 
 
 # Schematics 
 <img width="577" height="681" alt="Screenshot 2026-07-29 at 10 05 54 AM" src="https://github.com/user-attachments/assets/b671c95b-e2f9-47fe-896b-d0c6ac60d434" />
