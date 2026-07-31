@@ -200,9 +200,7 @@ void loop() {
 | flex sensor  | to record angles of knee bending | **N/A** | <a href= "https://www.amazon.com/Spectra-Symbol-Flex-Sensor-Variant/dp/B0D3FFWJZ9/ref=sr_1_2_sspa?crid=2YWQFG81RA8YQ&dib=eyJ2IjoiMSJ9.-xk5jWy9x9kEwqQM3ljrc09AjNjWfFZRHtnmFuVn6YenWtquzl26_jQjLDDJTAiP4ac-7T8FJIax2YS_sYIHd-PS4eXz2okzgh4Hq2gdmqoTkfGE9vrKGSfvHlK40sEWDcmzMJyHIL346Avnac09MNGgYJR7L-9IZRK1vOcxRlNJ3S_vsq_85iwrki6KjKqFYrNrC7cDuD3CO1p2eB-GlQ4wjJya4OqJCJmg8wQYQBE.2usDj0pbAUrVsQ3aeBj90yeiLSK8ou6l6kaNgwcZXWI&dib_tag=se&keywords=flex+sensor&qid=1785340994&sprefix=flex+sensor%2Caps%2C207&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"> Link </a>|
 
 # Other Resources/Examples
-One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
+
 - [TinkerCAD](https://www.tinkercad.com/dashboard)
 - [Arduino Platform downloading support] (https://support.arduino.cc/hc/en-us/articles/360019833020-Download-and-install-Arduino-IDE)
 - [onshape](https://www.onshape.com/en/)
-
-To watch the BSE tutorial on how to create a portfolio, click here.
